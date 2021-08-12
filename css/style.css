@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+/****** GENERAL ******/
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #9B9B9B;
+    margin: 0
+}
+p{
+    line-height: 1.5rem;
+}
+.container{
+    max-width: 100%;
+    margin: 0 auto;
+
+}
+/****** HEADER ******/
+header{
+    background-color: #00796B;
+    color: #FFFFFF;
+    font-weight: 400;
+    width: 100%;
+    margin-bottom: 43px;
+
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:  0 50px;
+}
+header ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    gap: 40px;
+}
+header ul a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+/****** FOOTER ******/
+footer{
+    background-color: #C4C4C4;
+    color: #FFFFFF;
+    font-size: 1.1rem;
+    text-align: center;
+    padding: 10px;
+    margin-top: 90px;
+}
+
+
+/****** MAIN CONTENT INDEX ******/
+section.banner .container{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 10px;
+    margin: 0 auto;
+    
+}
+section.banner article h1{
+    color: #009688;
+    text-transform: uppercase;
+    /* usado pois meu teclado nao aceita maiusculas acentuadas */
+    font-size: 2rem;
+}
+section.banner article p{
+    color: #9B9B9B;
+    font-size: 1.1rem;
+    width: 90%;
+    text-align: justify;
+    
+}
+section.banner article img{
+    width: 700px
+}
+
+/****** MAIN CONTENT "SOBRE" ******/
+section.about{
+    width: 85%;
+    margin: 0px auto 50px auto;
+
+    display: flex;
+}
+.container .about-title,
+section.about h2{
+    color: #009688
+}
+.container .about-title{
+    font-size: 2.5rem;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+section.about p{
+    margin: 45px 0;
+    text-align: justify;
+}
+section.about ol{
+    line-height: 1.5rem;
+}
+section.video{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin: 70px 0;
+}
+section.concepts{
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+}
+section.concepts h2{
+    color: #009688;
+    text-transform: uppercase;
+}
+section.concepts p{
+    margin: -10px 0 35px 0;
+}
+
+/****** MAIN CONTENT "SERVIÇOS" ******/
+.container .services-title{
+    font-size: 2.5rem;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+.container .services h1,
+.container .services h2{
+    color: #009688
+}
+.container .services-dev,
+.container .services-mkt,
+.container .services-ux{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+.container .services-dev{
+    margin-top: 20px;
+}
+.container .services-mkt{
+    flex-direction: row-inverse;
+}
+.services h2{
+    text-transform: uppercase;
+}
+
+/****** MAIN CONTENT "CONTATOS" ******/
+.contact-title h1{
+    color: #009688;
+    font-size: 2.5rem;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+.form button{
+    padding: 7px 40px;
+    color: #FFFFFF;
+    background-color: #009688;
+    border: none;
+}
+.form form{
+    width: 400px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+.form form input,
+.form form textarea{
+    width: 100%;
+    padding: 7px;
+    resize: none;
+    margin: 10px 0;
+}
+.form form textarea{
+    padding-bottom: 50px;
+}
+section.contact a{
+    text-decoration: none;
+    color: #009688;
+}
+.contact-pg{
+    display:flex;
+    justify-content: space-around;
+    margin: 0 70px;
+    align-items: center;
+}
