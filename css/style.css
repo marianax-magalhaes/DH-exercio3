@@ -181,7 +181,8 @@ section.concepts p{
 .form form textarea{
     padding-bottom: 50px;
 }
-section.contact a{
+.contact a,
+.contact a:visited{
     text-decoration: none;
     color: #009688;
 }
