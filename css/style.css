@@ -5,7 +5,7 @@
 body{
     font-family: 'Roboto', sans-serif;
     color: #9B9B9B;
-    margin: 0
+    margin: 0;
 }
 p{
     line-height: 1.5rem;
@@ -52,6 +52,10 @@ footer{
     text-align: center;
     padding: 10px;
     margin-top: 90px;
+    
+    position: relative;
+    bottom: -60px;
+    width: 100%; 
 }
 
 
