@@ -51,15 +51,18 @@ footer{
     font-size: 1.1rem;
     text-align: center;
     padding: 10px;
-    margin-top: 90px;
-    
-    position: relative;
+    /* margin-top: 90px; */
+
+    /* position: relative;
     bottom: -60px;
-    width: 100%; 
+    width: 100%; */
 }
 
 
 /****** MAIN CONTENT INDEX ******/
+section.banner{
+    min-height: 72vh
+}
 section.banner .container{
     display: flex;
     justify-content: center;
@@ -157,6 +160,9 @@ section.concepts p{
 }
 
 /****** MAIN CONTENT "CONTATOS" ******/
+section.contact-pg{
+    min-height: 57vh;
+}
 .contact-title h1{
     color: #009688;
     font-size: 2.5rem;
